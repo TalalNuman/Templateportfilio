@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root{
+  --primary-color : #0d6efd;
+}
+header{
+  font-weight:bold ;
+}
+body{
+  font-family: 'Poppins', sans-serif; 
+}
+/* header color */
+.bg-white{
+  background-color: white;
+}
+/* nav-link margin */
+li{
+  margin-left: 25px;
+}
+  /* social media icons */
+.icons{
+  color: #000;
+  font-size: 1.5rem;
+  
+}
+.icons:hover{
+  color: #0d6efd;
+}
+/* Font Weight = 800; */
+  .fw-8{
+    font-weight: 800;
+  }
+  #home{
+    padding-top: 7rem;
+    
+  }
+  #about{
+    background-color: whitesmoke;
+    padding-top: 100px;
+  }
+  #skills{
+    padding-top: 100px;
+    background-color: whitesmoke;
+  }
+  #portfolio{
+    padding-top: 70px;
+  }
+  #contact{
+    background-color: whitesmoke;
+    padding-top: 30px;
+  }
+  .underline{
+    text-decoration: underline;
+      }
+      
+      /* Image Zooming on hover */
+      .port-img img{
+        transition: 1s;
+        cursor: pointer;
+      }
+      .port-img img:hover{
+        transform: scale(1.1);
+      }
+      
+      
+      /* input lenght on Contact section */
+      .pe-8{
+        width: 350px;
+      }
